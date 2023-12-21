@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variavel em javascript</title>
+    <style>
+        :root{
+            --cor1: #F40800;
+            --cor2: #FAB701;
+            --cor3: #F035AF;
+            --cor4: #6129BC;
+            --cor5: #00FFEB;
+        }
+        body{
+            background-image: linear-gradient(to bottom, var(--cor2), var(--cor1), var(--cor3), var(--cor4), var(--cor5));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        h1{
+            color: white;
+            text-shadow: 1px 1px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tratamento de dados</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid optio ex quaerat, veniam fuga? Perspiciatis voluptates, illo rem repellendus nam non fugit ullam. Doloribus, in. Quo expedita placeat magni?</p>
+
+    <script>
+        //var nome = window.prompt('Qual é o seu nome?')
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var soma = n1 + n2
+        window.alert('A soma dos valores é: ' + soma)
+    </script>
+</body>
+</html>
